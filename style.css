@@ -1,0 +1,63 @@
+#panelBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    top: 150px;
+    left: 150px;
+    height: 700px;
+    width: 400px;
+}
+
+#displayBox {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkred;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#displayBox p {
+    font-size: 70px;
+    font-family: verdana;
+    margin: 20px;
+    color: green;
+}
+
+#floorButtonsBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.floorButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#speakerBox p {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.doorButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    border: none;
+}
+
+#doorButtonsBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
